@@ -41,14 +41,14 @@ int[] InitMyArray(int value)
 
 int EvenInteger(int[] myArray)
 {
-    int number = 0;
+    /*int number = 0;
 
     for (int i = 0; i < myArray.Length; i++)
     {
         if (myArray[i] % 2 == 0)
             number++;
-    }
-
+    }*/
+    int number = myArray.Count(i => i % 2 == 0 && i > myArray.Length);
     return number;
 }
 
@@ -59,7 +59,7 @@ PrintMyArray(array);
 int even = EvenInteger(array);
 Console.WriteLine($"\nКоличество четных чисел в массиве: {even}\n");
 
- /*ВТОРОЙ СПОСОБ РЕШЕНИЯ ДАННОГО УСЛОВИЯ*/
+/*ВТОРОЙ СПОСОБ РЕШЕНИЯ ДАННОГО УСЛОВИЯ*/
 
 /*
 
