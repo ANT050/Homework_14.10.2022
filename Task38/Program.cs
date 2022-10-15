@@ -38,7 +38,7 @@ double[] InitMyArray(int value)
 //Первое значение максимальный элемент, второе - минималный
 (double, double) GetMaxMin(double[] myArray)
 {
-    double resultMax = myArray[0];
+    /*double resultMax = myArray[0];
     double resultMin = myArray[0];
 
     for (int i = 1; i < myArray.Length; i++)
@@ -48,7 +48,9 @@ double[] InitMyArray(int value)
 
         if (resultMin > myArray[i])
             resultMin = myArray[i];
-    }
+    }*/
+    double resultMin = myArray.Min();
+    double resultMax = myArray.Max();
 
     return (resultMax, resultMin);
 }
