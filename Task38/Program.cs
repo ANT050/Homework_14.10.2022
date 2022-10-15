@@ -55,7 +55,7 @@ double[] InitMyArray(int value)
 
 double DifferenceBetweenMaxMin(double max, double min)
 {
-    double resultDifference = max - min;
+    double resultDifference = Math.Round((max - min), 2);
     return resultDifference;
 }
 
