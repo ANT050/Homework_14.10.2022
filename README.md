@@ -14,7 +14,7 @@
 
 [345, 897, 568, 234] -> 2
 
-[Перейти к решению](https://github.com/ANT050/Homework_14.10.2022/blob/main/Task34/Program.cs "Открыть")
+:point_right: [Перейти к решению](https://github.com/ANT050/Homework_14.10.2022/blob/main/Task34/Program.cs "Открыть")
 
 ---
 
@@ -26,7 +26,7 @@
 
 [-4, -6, 89, 6] -> 0
 
-[Перейти к решению](https://github.com/ANT050/Homework_14.10.2022/blob/main/Task36/Program.cs "Открыть")
+:point_right: [Перейти к решению](https://github.com/ANT050/Homework_14.10.2022/blob/main/Task36/Program.cs "Открыть")
 
 ---
 
@@ -36,6 +36,6 @@
 
 [3 7 22 2 78] -> 76
 
-[Перейти к решению](https://github.com/ANT050/Homework_14.10.2022/blob/main/Task38/Program.cs "Открыть")
+:point_right: [Перейти к решению](https://github.com/ANT050/Homework_14.10.2022/blob/main/Task38/Program.cs "Открыть")
 
 ---
